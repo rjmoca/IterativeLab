@@ -12,7 +12,7 @@ public class Main {
 
         while (option!=5) {
 
-            System.out.println("Por favor seleccione una opción:\n 1. Metodo 'While'.\n 2. Metodo 'For'.\n 3. Metodo 'Do While'\n 4. Metodo 'While' hasta escoger la detención del programa.\n 5. Finalizar.");
+            System.out.println("Por favor seleccione un metodo a utilizar:\n 1. Metodo 'While & For'.\n 2. Metodo 'Do While'.\n 3. Imprimir y volver a preguntar\n 4. Metodo 'While' hasta escoger la detención del programa.\n 5. Finalizar.");
             option = scanner.nextInt();
 
             if (option == 5) {
@@ -22,8 +22,8 @@ public class Main {
             }else {
                 switch (option) {
                     case 1:
-                        //While method.
-                        iterativeControl.whileMethod();
+                        //While and For method.
+                        iterativeControl.whileAndForMethod();
                         break;
 
                     case 2:
@@ -37,11 +37,6 @@ public class Main {
                 }
             }
         }
-        //Do the next operation on the new class created.
-
-        //1- Todo. Ask user how many time he wants to print hello world on screen.
-            //1.1- Todo. Print Hello world as many times as user defined. Use a while structure.
-            //1.2- Todo. Print Hello world as many times as user defined. Use a for structure.
 
         //2- Todo Print hello world and ask the user if he wants to print hello again using a Do while structure.
 
