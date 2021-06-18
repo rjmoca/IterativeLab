@@ -12,10 +12,10 @@ public class Main {
 
         while (option!=5) {
 
-            System.out.println("Por favor seleccione un metodo a utilizar:\n 1. Metodo 'While & For'.\n 2. Metodo 'Do While'.\n 3. Imprimir y volver a preguntar\n 4. Metodo 'While' hasta escoger la detención del programa.\n 5. Finalizar.");
+            System.out.println("Por favor seleccione un metodo a utilizar:\n 1. Metodo 'While & For'.\n 2. Imprimir y volver a preguntar\n 3. Metodo 'While' hasta escoger la detención del programa.\n 4. Finalizar.");
             option = scanner.nextInt();
 
-            if (option == 5) {
+            if (option == 4) {
                 //Closing the application.
                 System.out.println("Finalizó...");
                 break;
@@ -27,18 +27,15 @@ public class Main {
                         break;
 
                     case 2:
+                        //Do While until user wants to stop.
+                        iterativeControl.doWhileMethod();
+                        break;
 
                     case 3:
-
-                    case 4:
-
-                    case 5:
 
                 }
             }
         }
-
-        //2- Todo Print hello world and ask the user if he wants to print hello again using a Do while structure.
 
         //3- Todo ask the user if he wants to print hello using a while structure to keep printing until user wants to stop.
 

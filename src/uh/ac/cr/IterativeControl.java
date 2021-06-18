@@ -1,5 +1,6 @@
 package uh.ac.cr;
 
+import java.io.InputStream;
 import java.util.Scanner;
 
 public class IterativeControl {
@@ -23,8 +24,16 @@ public class IterativeControl {
     }
 
     public void doWhileMethod() {
-        Scanner scanner = new Scanner (System.in);
 
+        Scanner input = new Scanner( System.in );
+        String answer = null;
+
+        do{
+            System.out.println("Hello World");
+            System.out.println( "¿Imprimir de nuevo? (Y/N)" );
+            answer = input.nextLine();
+
+        } while( answer.equalsIgnoreCase("y" ) );
     }
 
 
