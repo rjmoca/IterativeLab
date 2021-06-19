@@ -32,13 +32,12 @@ public class Main {
                         break;
 
                     case 3:
-
+                        //Infinite While method until user wants to stop.
+                        iterativeControl.whileInfiniteMethod();
+                        break;
                 }
             }
         }
 
-        //3- Todo ask the user if he wants to print hello using a while structure to keep printing until user wants to stop.
-
-        //Do all the code needed for the previous items on the class created. Use main just to call the methods.
     }
 }
